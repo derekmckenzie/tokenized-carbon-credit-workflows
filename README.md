@@ -50,6 +50,12 @@ This flow shows how an on-chain credit representation could be claimed back towa
 - Securities-law / regulatory analysis in collaboration with counsel
 - User experience for complex financial and environmental assets
 
+## Technical note
+
+The architecture considered non-fungible or semi-fungible token standards, such as ERC-1155, because carbon credits can share common attributes while still requiring project, vintage, registry, batch, ownership, and retirement-specific tracking.
+
+The more important design question was not the token standard itself, but how the on-chain representation would stay connected to off-chain registry records, verification workflows, and retirement evidence.
+
 ## My role
 
 I worked across product strategy, tokenized asset design, workflow architecture, and securities-law / regulatory questions in collaboration with external counsel.
